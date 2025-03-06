@@ -1,0 +1,28 @@
+                             OLS Regression Results
+================================================================================
+Dep. Variable:     friction_coefficient   R-squared:                       0.999
+Model:                              OLS   Adj. R-squared:                  0.999
+Method:                   Least Squares   F-statistic:                 2.863e+04
+Date:                  Fri, 07 Feb 2025   Prob (F-statistic):          1.60e-217
+Time:                          22:55:33   Log-Likelihood:                 666.41
+No. Observations:                   150   AIC:                            -1319.
+Df Residuals:                       143   BIC:                            -1298.
+Df Model:                             6
+Covariance Type:              nonrobust
+======================================================================================
+                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+const                  0.3033      0.001    242.648      0.000       0.301       0.306
+humidity_norm          0.1989      0.001    209.092      0.000       0.197       0.201
+road_temp_norm         0.1011      0.001    120.233      0.000       0.099       0.103
+tire_temp_norm         0.2700      0.001    238.155      0.000       0.268       0.272
+tire_pressure_norm     0.0015      0.003      0.566      0.572      -0.004       0.007
+road_wetness_norm     -0.1018      0.003    -38.028      0.000      -0.107      -0.097
+rainfall_voltage       0.0104      0.001      8.187      0.000       0.008       0.013
+==============================================================================
+Omnibus:                       45.270   Durbin-Watson:                   1.931
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               10.136
+Skew:                          -0.294   Prob(JB):                      0.00629
+Kurtosis:                       1.870   Cond. No.                         17.4
+==============================================================================
+
